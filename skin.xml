@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin version="0.2">
+    <title xml:lang="ko">심플 카운터 스킨</title>
+    <description xml:lang="ko">심플하게 구성된 카운터 스킨입니다.</description>
+    <version>0.2</version>
+    <date>2019-04-07</date>
+    <link>https://funnyxe.com/sworldCounter</link>
+
+    <author email_address="contact@funnyxe.com" link="https://funnyxe.com/xeQnA">
+        <name xml:lang="ko">퍼니XE</name>
+    </author>
+
+    <colorset>
+        <color name="white">
+            <title xml:lang="ko">밝은 바탕용</title>
+        </color>
+        <color name="black">
+            <title xml:lang="ko">어두운 바탕용</title>
+        </color>
+    </colorset>
+</skin>

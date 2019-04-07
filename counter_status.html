@@ -1,0 +1,12 @@
+<!--%import("./css/widget.css")-->
+
+<div class="widgetContainer<!--@if($colorset=="black")--> black<!--@end-->">
+    <dl class="widgetCounter">
+        <dt>{$lang->today} : </dt>
+        <dd><span title="Visitor">{number_format($today_counter->unique_visitor)}</span> / <span title="Pageview">{number_format($today_counter->pageview)}</span></dd>
+        <dt>{$lang->yesterday} : </dt>
+        <dd><span title="Visitor">{number_format($yesterday_counter->unique_visitor)}</span> / <span title="Pageview">{number_format($yesterday_counter->pageview)}</span></dd>
+        <dt>{$lang->total} : </dt>
+        <dd><span title="Visitor">{number_format($total_counter->unique_visitor)}</span> / <span title="Pageview">{number_format($total_counter->pageview)}</span></dd>
+    </dl>
+</div>
